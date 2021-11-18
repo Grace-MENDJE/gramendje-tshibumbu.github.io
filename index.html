@@ -65,28 +65,76 @@
   <body>
     <div id="portfolio" class="container portfolio">
       <header id="header" class="header">
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Grace Mendje</a>
-            </li>
-            <li>
-              <a href="#aproposdemoi">A propos de moi</a>
-            </li>
-            <li>
-              <a href="#projets">Mes projets</a>
-            </li>
-            <li>
-              <a
-                href="https://grace-mendje.github.io/CVgracemendjetshibumbu.github.io/"
-                >Mon C.V</a
-              >
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand active" href="./index.html">Grace MENDJE</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#aproposdemoi"
+                  >Qui suis-je?</a
+                >
+                <a class="nav-link" href="#projets">Mes projets</a>
+                <a
+                  class="nav-link"
+                  href="https://grace-mendje.github.io/CVgracemendjetshibumbu.github.io/"
+                  target="blank"
+                >
+                  Mon C.V</a
+                >
+                <a class="nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
         </nav>
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <ul class="mr-5">
+                <li>
+                  <a href="#">Grace Mendje</a>
+                </li>
+                <li>
+                  <a href="#aproposdemoi">A propos de moi</a>
+                </li>
+                <li>
+                  <a href="#projets">Mes projets</a>
+                </li>
+                <li>
+                  <a
+                    href="https://grace-mendje.github.io/CVgracemendjetshibumbu.github.io/"
+                    >Mon C.V</a
+                  >
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> -->
         <!-- Debut présentation -->
         <div id="presentation" class="presentation">
           <h1>Grace MENDJE TSHIBUMBU</h1>
@@ -94,7 +142,7 @@
             <img
               id="graceimg"
               classe="graceimg"
-              src="./Assets/images/grace-mendje.jpg"
+              src="./Assets/images/Allemagne2.jpeg"
               alt=""
             />
           </div>
@@ -165,58 +213,104 @@
                   <div class="row">
                     <div class="col-md-4">
                       <div class="single-box">
-                        <a href="">
-                          <div class="img-area">
-                            <img src="./Assets/images/fumer.jpg" alt="" />
+                        <div class="img-area">
+                          <img
+                            src="./Assets/images/mes projets/reservia.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="img-text">
+                          <h2>Reservia</h2>
+                          <p>
+                            Site crée à base de html et css(flex box et grids)
+                          </p>
+                          <div class="slider-btn">
+                            <a
+                              class="btn btn-danger"
+                              href="https://grace-mendje.github.io/Reservia.github.io/"
+                              target="blank"
+                              role="button"
+                              >site web</a
+                            >
+                            <a
+                              class="btn btn-info"
+                              href="https://github.com/Grace-MENDJE/Reservia.github.io"
+                              target="blank"
+                              role="button"
+                              >Repository</a
+                            >
                           </div>
-                          <div class="img-text">
-                            <h2>Project One</h2>
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Minima, sit. Cupiditate
-                              excepturi debitis ipsam reiciendis.
-                            </p>
-                          </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
 
                     <div class="col-md-4">
                       <div class="single-box">
-                        <a href="">
-                          <div class="img-area">
-                            <img src="./Assets/images/projet/ile.jpg" alt="" />
+                        <div class="img-area">
+                          <img
+                            src="./Assets/images/mes projets/ohmyfood.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="img-text">
+                          <h2>Oh my food</h2>
+                          <p>
+                            Ce projet à éte fait avec HTML et SASS, j'ai eu le
+                            temps de m'amuser avec l'animation css et decouvrir
+                            le pouvoir de la transition.
+                          </p>
+                          <div class="slider-btn">
+                            <a
+                              class="btn btn-danger"
+                              href="https://bonnebouf.netlify.app/"
+                              target="blank"
+                              role="button"
+                              >site web</a
+                            >
+                            <a
+                              class="btn btn-info"
+                              href="https://github.com/Grace-MENDJE/Ohmyfood"
+                              target="blank"
+                              role="button"
+                              >Repository</a
+                            >
                           </div>
-                          <div class="img-text">
-                            <h2>Project Two</h2>
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Minima, sit. Cupiditate
-                              excepturi debitis ipsam reiciendis.
-                            </p>
-                          </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
 
                     <div class="col-md-4">
                       <div class="single-box">
-                        <a href="">
-                          <div class="img-area">
-                            <img
-                              src="./Assets/images/projet/fleure.jpg"
-                              alt=""
-                            />
+                        <div class="img-area">
+                          <img
+                            src="./Assets/images/mes projets/lachouetteagence.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="img-text">
+                          <h2>La chouette Agence</h2>
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Minima, sit. Cupiditate excepturi debitis
+                            ipsam reiciendis.
+                          </p>
+                          <div class="slider-btn">
+                            <a
+                              class="btn btn-danger"
+                              href="https://grace-mendje.github.io/Lachouetteagence_4_01042021.github.io/contact.html?"
+                              target="blank"
+                              role="button"
+                              >site web</a
+                            >
+                            <a
+                              class="btn btn-info"
+                              href="https://github.com/Grace-MENDJE/Lachouetteagence_4_01042021.github.io"
+                              target="blank"
+                              role="button"
+                              >Repository</a
+                            >
                           </div>
-                          <div class="img-text">
-                            <h2>Project Three</h2>
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Minima, sit. Cupiditate
-                              excepturi debitis ipsam reiciendis.
-                            </p>
-                          </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -226,64 +320,87 @@
                   <div class="row">
                     <div class="col-md-4">
                       <div class="single-box">
-                        <a href="">
-                          <div class="img-area">
-                            <img
-                              src="./Assets/images/projet/montagne.jpg"
-                              alt=""
-                            />
+                        <div class="img-area">
+                          <img
+                            src="./Assets/images/projet/montagne.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="img-text">
+                          <h2>Project four</h2>
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Minima, sit. Cupiditate excepturi debitis
+                            ipsam reiciendis.
+                          </p>
+                          <div class="slider-btn">
+                            <a
+                              class="btn btn-danger"
+                              href="#"
+                              target="blank"
+                              role="button"
+                              >site web</a
+                            >
+                            <a
+                              class="btn btn-info"
+                              href="#"
+                              target="blank"
+                              role="button"
+                              >Repository</a
+                            >
                           </div>
-                          <div class="img-text">
-                            <h2>Project four</h2>
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Minima, sit. Cupiditate
-                              excepturi debitis ipsam reiciendis.
-                            </p>
-                          </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
 
                     <div class="col-md-4">
                       <div class="single-box">
-                        <a href="">
-                          <div class="img-area">
-                            <img
-                              src="./Assets/images/couchedusoleil.jpg"
-                              alt=""
-                            />
+                        <div class="img-area">
+                          <img
+                            src="./Assets/images/couchedusoleil.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="img-text">
+                          <h2>Project five</h2>
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Minima, sit. Cupiditate excepturi debitis
+                            ipsam reiciendis.
+                          </p>
+                          <div class="slider-btn">
+                            <a class="btn btn-danger" href="#" role="button"
+                              >site web</a
+                            >
+                            <a class="btn btn-info" href="#" role="button"
+                              >Repository</a
+                            >
                           </div>
-                          <div class="img-text">
-                            <h2>Project five</h2>
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Minima, sit. Cupiditate
-                              excepturi debitis ipsam reiciendis.
-                            </p>
-                          </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
 
                     <div class="col-md-4">
                       <div class="single-box">
-                        <a href="">
-                          <div class="img-area">
-                            <img
-                              src="./Assets/images/projet/nature.jpg"
-                              alt=""
-                            />
+                        <div class="img-area">
+                          <img src="./Assets/images/projet/nature.jpg" alt="" />
+                        </div>
+                        <div class="img-text">
+                          <h2>Project six</h2>
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Minima, sit. Cupiditate excepturi debitis
+                            ipsam reiciendis.
+                          </p>
+                          <div class="slider-btn">
+                            <a class="btn btn-danger" href="#" role="button"
+                              >site web</a
+                            >
+                            <a class="btn btn-info" href="#" role="button"
+                              >Repository</a
+                            >
                           </div>
-                          <div class="img-text">
-                            <h2>Project six</h2>
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Minima, sit. Cupiditate
-                              excepturi debitis ipsam reiciendis.
-                            </p>
-                          </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -292,61 +409,79 @@
                   <div class="row">
                     <div class="col-md-4">
                       <div class="single-box">
-                        <a href="">
-                          <div class="img-area">
-                            <img src="./Assets/images/projet/ile.jpg" alt="" />
+                        <div class="img-area">
+                          <img src="./Assets/images/projet/ile.jpg" alt="" />
+                        </div>
+                        <div class="img-text">
+                          <h2>Project seven</h2>
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Minima, sit. Cupiditate excepturi debitis
+                            ipsam reiciendis.
+                          </p>
+                          <div class="slider-btn">
+                            <a class="btn btn-danger" href="#" role="button"
+                              >site web</a
+                            >
+                            <a class="btn btn-info" href="#" role="button"
+                              >Repository</a
+                            >
                           </div>
-                          <div class="img-text">
-                            <h2>Project seven</h2>
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Minima, sit. Cupiditate
-                              excepturi debitis ipsam reiciendis.
-                            </p>
-                          </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
 
                     <div class="col-md-4">
                       <div class="single-box">
-                        <a href="">
-                          <div class="img-area">
-                            <img
-                              src="./Assets/images/projet/arbrenature.jpg"
-                              alt=""
-                            />
+                        <div class="img-area">
+                          <img
+                            src="./Assets/images/projet/arbrenature.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="img-text">
+                          <h2>Project eight</h2>
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Minima, sit. Cupiditate excepturi debitis
+                            ipsam reiciendis.
+                          </p>
+                          <div class="slider-btn">
+                            <a class="btn btn-danger" href="#" role="button"
+                              >site web</a
+                            >
+                            <a class="btn btn-info" href="#" role="button"
+                              >Repository</a
+                            >
                           </div>
-                          <div class="img-text">
-                            <h2>Project eight</h2>
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Minima, sit. Cupiditate
-                              excepturi debitis ipsam reiciendis.
-                            </p>
-                          </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
 
                     <div class="col-md-4">
                       <div class="single-box">
-                        <a href="">
-                          <div class="img-area">
-                            <img
-                              src="./Assets/images/projet/montagne.jpg"
-                              alt=""
-                            />
+                        <div class="img-area">
+                          <img
+                            src="./Assets/images/projet/montagne.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="img-text">
+                          <h2>Project nine</h2>
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Minima, sit. Cupiditate excepturi debitis
+                            ipsam reiciendis.
+                          </p>
+                          <div class="slider-btn">
+                            <a class="btn btn-danger" href="#" role="button"
+                              >site web</a
+                            >
+                            <a class="btn btn-info" href="#" role="button"
+                              >Repository</a
+                            >
                           </div>
-                          <div class="img-text">
-                            <h2>Project nine</h2>
-                            <p>
-                              Lorem ipsum, dolor sit amet consectetur
-                              adipisicing elit. Minima, sit. Cupiditate
-                              excepturi debitis ipsam reiciendis.
-                            </p>
-                          </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
                   </div>
